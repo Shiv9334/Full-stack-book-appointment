@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING APPOINTMENT</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2 style="color: chocolate">Book Appointment</h2>
+        </legend>
+
+        <form action="/" id="form" class="form">
+            <label for="name"><b>Name:</b></label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
+            <label for="Phone Number"><b>Mobile No. :</b></label><br>
+            <input type="number" id ="number" name="phone" placeholder="Enter your Mobile Number"><br><br>
+            <label for="email"><b>Email:</b></label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email-id"><br><br>
+
+            <input type="hidden" id ="id" name="hidden"><br><br>  
+
+            <button type="submit" id="submitbtn">Submit</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2 style="color: crimson">Data Table</h2>
+        </legend>
+        <ul id="users"></ul>
+    </fieldset>
+     <script src="script.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>
+    
+</body>
+</html>
